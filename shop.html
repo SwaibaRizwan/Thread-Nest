@@ -1,0 +1,841 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Thread Nest</title>
+    <link rel="icon" href="public/logo-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <!-- navbar -->
+     <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img id="nav-img" src="public/navbar-logo.png" alt="logo" width="90px" height="35px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+     <form class="d-flex" role="search">
+        <div class="search-box">
+    <input type="text" placeholder="Search..." class="search-input">
+    <button id="search-btn" class="btn" type="submit">
+        <i class="bi bi-search"></i>
+    </button>
+  </div>
+        </form>
+        <a href="cart.html" class="cart-link">
+    <i class="bi bi-cart"></i>
+    <span id="cart-count">0</span>
+</a>
+      
+    </div>
+  </div>
+</nav>
+<!-- shop category -->
+
+<div class="shop-text">
+    <h1>Our Crochet Collection</h1>
+    <h6>Handmade crochet with love.</h6>
+<br>
+
+<h2 id="top-text">Filter by Category</h2>
+    <div class="filter-buttons">
+       
+        <button class="filter-btn" data-cat="all">
+            All Products
+        </button>
+
+        <button class="filter-btn" data-cat="keychains">
+            Keychains
+        </button>
+
+        <button class="filter-btn" data-cat="home-decor">
+            Home Decor
+        </button>
+
+        <button class="filter-btn" data-cat="accessories">
+            Accessories
+        </button>
+
+        <button class="filter-btn" data-cat="bags">
+            Bags
+        </button>
+
+        <button class="filter-btn" data-cat="bouquets">
+            Bouquets
+        </button>
+
+        <button class="filter-btn" data-cat="cardigans">
+            Cardigans
+        </button>
+
+    </div>
+</div><hr>
+<!-- products -->
+ <div class="products">
+
+    <!-- Keychain Product -->
+    
+    <div class="product" data-cat="keychains">
+
+        <img src="public/flower keychain.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Sunflower Keychain</h3>
+
+        <p>A cheerful handmade sunflower keychain to brighten your keys or bag.</p>
+
+        <h5>Rs. 450</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- Keychain Product2 -->
+    <div class="product" data-cat="keychains">
+
+        <img src="public/rose keychain2.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Rose Keychain</h3>
+
+        <p>A delicate handmade rose keychain with a charming floral touch.</p>
+
+        <h5>Rs. 500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+
+    <!-- Keychain Product3 -->
+    <div class="product" data-cat="keychains">
+
+        <img src="public/turtle keychain.png" alt="Crochet Keychain">
+
+        <h3>Crochet Turtle Keychain</h3>
+
+        <p>A cute handmade turtle keychain, perfect for everyday use.</p>
+
+        <h5>Rs. 800</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+
+    <!-- Keychain Product 4-->
+    <div class="product" data-cat="keychains">
+
+        <img src="public/daisy keychain.jpeg" alt="Crochet Keychain">
+
+        <h3>Crochet Daisy Flower Keychain</h3>
+
+        <p>A sweet daisy flower keychain handcrafted with soft crochet stitches.</p>
+
+        <h5>Rs. 450</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+
+    <!-- Keychain Product5 -->
+    <div class="product" data-cat="keychains">
+
+        <img src="public/tulip key chain.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Tulip Keychain</h3>
+
+        <p>A colorful handmade tulip keychain that adds a lovely touch to your bag.</p>
+
+        <h5>Rs. 450</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+
+    <!-- decor Product -->
+    <div class="product" data-cat="home-decor">
+
+        <img src="public/wall hanging.JPEG" alt="Crochet Keychain">
+
+        <h3>Crochet Wall Hanging</h3>
+
+        <p>A beautiful handmade crochet wall hanging to add warmth and texture to your space.</p>
+
+        <h5>Rs. 1200</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 1 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/homedecor.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Wall Decor</h3>
+
+        <p>A charming crochet decoration designed to bring a cozy handmade feel to your home.</p>
+
+        <h5>Rs. 1500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+<!-- 2 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/homedecor2.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Home Decor</h3>
+
+        <p>A unique handmade crochet piece that adds a soft artisan touch to your room.</p>
+
+        <h5>Rs. 1500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+<!-- 3 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/homedecor3.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Home Decor</h3>
+
+        <p>A lovely crochet decoration made to complement a cozy and creative interior.</p>
+
+        <h5>Rs. 1500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 4 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/homedecor4.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Home Decor</h3>
+
+        <p>A handcrafted crochet accent that brings warmth and character to your home.</p>
+
+        <h5>Rs. 1600</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 5 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/homedecor5.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Home Decor</h3>
+
+        <p>A stylish handmade crochet piece for adding a cozy decorative touch.</p>
+
+        <h5>Rs. 1600</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 6 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/homedecor6.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Home Decor</h3>
+
+        <p>A simple and elegant crochet decoration handmade with care.</p>
+
+        <h5>Rs. 1600</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 7 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/table runner4.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Table Runner</h3>
+
+        <p>An elegant handmade table runner that adds a warm crochet touch to your dining space.</p>
+
+        <h5>Rs. 2500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 8 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/table runner3.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Table Runner</h3>
+
+        <p>A beautiful crochet table runner crafted to make your table setting feel special.</p>
+
+        <h5>Rs. 2500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 9 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/table runner2.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Table Runner</h3>
+
+        <p>A delicate handmade table runner with a cozy and elegant crochet finish.</p>
+
+        <h5>Rs. 2500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+<!-- 10 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/table runner5.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Table Runner</h3>
+
+        <p>A stylish handmade table runner perfect for adding charm to your dining table.</p>
+
+        <h5>Rs. 2800</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 11 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/tinker tray 2.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Trinket Tray</h3>
+
+        <p>A cute handmade crochet tray for keeping small accessories and treasures organized.</p>
+
+        <h5>Rs. 1200</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 12 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/tinker tray.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Trinket Tray</h3>
+
+        <p>A practical handmade crochet tray for storing little everyday essentials.</p>
+
+        <h5>Rs. 1200</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+<!-- 13 -->
+<div id="pillow" class="product" data-cat="home-decor">
+
+        <img src="public/pillow2.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Pillow</h3>
+
+        <p>A soft handmade crochet pillow cover that adds comfort and charm to your space.</p>
+
+        <h5>Rs. 2200</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- 14 -->
+<div class="product" data-cat="home-decor">
+
+        <img src="public/pillow.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Pillow</h3>
+
+        <p>A cozy handmade crochet pillow designed to give your room a warm artisan feel.</p>
+
+        <h5>Rs. 2200</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+
+
+
+
+    <!-- Keychain Product -->
+    <div class="product" data-cat="keychains">
+
+        <img src="public/flower keychain.jpg" alt="Crochet Keychain">
+
+        <h3>Crochet Sunflower Keychain</h3>
+
+        <p>A cheerful handmade sunflower keychain to brighten your keys or bag.</p>
+
+        <h5>Rs. 450</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+
+
+    <!-- Another Product -->
+    <div id="table-runner" class="product" data-cat="home-decor">
+
+        <img src="public/table runner" alt="Crochet Table Runner">
+
+        <h3>Crochet Table Runner</h3>
+
+        <p>An elegant handmade table decoration crafted with beautiful crochet stitches.</p>
+
+        <h5>Rs. 2500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+    <!-- accessories -->
+
+    <div class="product" data-cat="accessories">
+    <img src="public/hair tie.jpg" alt="Crochet Bracelet">
+    <h3>Crochet Hair Tie</h3>
+    <p>A cute handmade crochet hair tie that adds a playful touch to your everyday style.</p>
+    <h5>Rs. 500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+<!-- 2 -->
+<div class="product" data-cat="accessories">
+    <img src="public/hairpins2.jpg" alt="Crochet Bracelet">
+    <h3>Crochet Hair Pins</h3>
+    <p>Delicate handmade crochet hair pins designed to add a charming floral touch.</p>
+    <h5>Rs. 550</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+<!-- 3 -->
+<div class="product" data-cat="accessories">
+    <img src="public/hairclip.jpg" alt="Crochet Bracelet">
+    <h3>Crochet Hair Clip</h3>
+    <p>A stylish handmade crochet hair clip that makes everyday hairstyles more special.</p>
+    <h5>Rs. 600</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+<!-- 4 -->
+<div class="product" data-cat="accessories">
+    <img src="public/flower hair tie.jpg" alt="Crochet Bracelet">
+    <h3>Crochet Flower Hair Tie</h3>
+    <p>A pretty flower hair tie handcrafted to bring a soft handmade touch to your look.</p>
+    <h5>Rs. 500</h5>
+<button class="add-cart-btn">
+        Add to Cart
+    </button>
+    </div>
+<!-- cardigans -->
+ <div class="product" data-cat="cardigans">
+    <img src="public/cardigan.jpg" alt="Crochet Greeting Card">
+    <h3>Crochet Cardigan</h3>
+    <p>A cozy handmade crochet cardigan designed for a stylish and comfortable look.</p>
+    <h5>Rs. 5000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 2 -->
+<div class="product" data-cat="cardigans">
+    <img src="public/cardigan2" alt="Crochet Greeting Card">
+    <h3>Crochet Cardigan</h3>
+    <p>A beautiful handmade cardigan with a cozy crochet finish for everyday wear.</p>
+    <h5>Rs. 5500</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 3 -->
+<div class="product" data-cat="cardigans">
+    <img src="public/cardigan3" alt="Crochet Greeting Card">
+    <h3>Crochet Cardigan</h3>
+    <p>A comfortable handmade crochet cardigan that adds warmth and style to your wardrobe.</p>
+    <h5>Rs. 6000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 4 -->
+<div class="product" data-cat="cardigans">
+    <img src="public/cardigan4.jpg" alt="Crochet Greeting Card">
+    <h3>Crochet Cardigan</h3>
+    <p>A stylish handmade cardigan crafted with care for a soft and cozy feel.</p>
+    <h5>Rs. 5000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 5 -->
+ <div class="product" data-cat="cardigans">
+    <img src="public/cardigan5.jpg" alt="Crochet Greeting Card">
+    <h3>Crochet Cardigan</h3>
+    <p>A lovely crochet cardigan made to add a handmade touch to your outfit.</p>
+    <h5>Rs. 6000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 6 -->
+ <div class="product" data-cat="cardigans">
+    <img src="public/cardigan6.jpg" alt="Crochet Greeting Card">
+    <h3>Crochet Cardigan</h3>
+    <p>A warm handmade crochet cardigan perfect for creating a relaxed layered look.</p>
+    <h5>Rs. 6000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 7 -->
+ <div class="product" data-cat="cardigans">
+    <img src="public/cardigan7.jpg" alt="Crochet Greeting Card">
+    <h3>Crochet Cardigan</h3>
+    <p>A classic handmade crochet cardigan with a beautiful artisan finish.</p>
+    <h5>Rs. 6000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- bags -->
+<div class="product" data-cat="bags">
+    <img src="public/tod bag.jpg" alt="Crochet Tote Bag">
+    <h3>Crochet Tote Bag</h3>
+    <p>A spacious handmade crochet tote bag that is stylish and practical for everyday use.</p>
+    <h5>Rs. 3000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 1 -->
+ <div id="tod-bag" class="product" data-cat="bags">
+    <img src="public/bag2" alt="Crochet Tote Bag">
+    <h3>Crochet Hand Bag</h3>
+    <p>A stylish handmade crochet handbag designed for carrying your essentials with ease.</p>
+    <h5>Rs. 4500</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 2 -->
+ <div class="product" data-cat="bags">
+    <img src="public/bag3" alt="Crochet Tote Bag">
+    <h3>Crochet Hand Bag</h3>
+    <p>A charming handmade crochet handbag that combines everyday style with comfort.</p>
+    <h5>Rs. 3500</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 3 -->
+ <div class="product" data-cat="bags">
+    <img src="public/bag4.jpg" alt="Crochet Tote Bag">
+    <h3>Crochet Tote Bag</h3>
+    <p>A roomy handmade crochet tote bag perfect for shopping, outings, and daily essentials.</p>
+    <h5>Rs. 5000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 4 -->
+ <div class="product" data-cat="bags">
+    <img src="public/bag5.jpg" alt="Crochet Tote Bag">
+    <h3>Crochet Tote Bag</h3>
+    <p>A practical handmade crochet tote with a beautiful artisan look.</p>
+    <h5>Rs. 3800</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 5 -->
+ <div class="product" data-cat="bags">
+    <img src="public/bag6.jpg" alt="Crochet Tote Bag">
+    <h3>Crochet Rose Bag</h3>
+    <p>A unique handmade crochet rose bag with a feminine floral design.</p>
+    <h5>Rs. 3200</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 6 -->
+ <div class="product" data-cat="bags">
+    <img src="public/bag7.jpg" alt="Crochet Tote Bag">
+    <h3>Crochet Tote Bag</h3>
+    <p>A versatile handmade crochet tote bag made for stylish everyday carrying.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+
+<!-- bouquets -->
+  <div class="product" data-cat="bouquets">
+    <img src="public/bouquet.jpg" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A beautiful handmade crochet bouquet that keeps its charm without wilting.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 2 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet1" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A lovely handmade crochet flower bouquet made to brighten special moments.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 3 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet2" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A colorful handmade crochet bouquet perfect for gifting or decorating your space.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 4 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet3" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A charming crochet flower bouquet carefully handcrafted with love.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 5 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet4" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A thoughtful handmade crochet bouquet that makes a lasting gift.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 6 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet5" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A beautiful crochet bouquet designed to bring handmade beauty to any occasion.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 7 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet6" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A delicate handmade crochet bouquet that adds warmth and color to your room.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 8 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet7" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A cheerful crochet flower bouquet handcrafted for gifting and decoration.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 9 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/rose bouquet.jpg" alt="Crochet Bouquet">
+    <h3>Crochet Rose Bouquet</h3>
+    <p>A romantic handmade crochet rose bouquet that stays beautiful for years.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 10 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet8.jpg" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A vibrant handmade crochet bouquet created for memorable gifts and displays.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 11 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/rose bouq 2.jpg" alt="Crochet Bouquet">
+    <h3>Crochet Rose Bouquet</h3>
+    <p>A handmade rose bouquet with a soft floral look and lasting beauty.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+<!-- 12 -->
+<div class="product" data-cat="bouquets">
+    <img src="public/bouquet9.jpg" alt="Crochet Bouquet">
+    <h3>Crochet Bouquet</h3>
+    <p>A charming handmade crochet bouquet that brings a lasting floral touch to any space.</p>
+    <h5>Rs. 4000</h5>
+    <button class="add-cart-btn">
+        Add to Cart
+    </button>
+</div>
+
+
+</div>
+ <!-- footer -->
+     <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Thread Nest</h5>
+            <p>Handmade with love, Stitched with Care</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled d-flex">
+              <li><a href="https://www.facebook.com/threadnest46"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/threadnest46/"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://www.tiktok.com/@threadnest47"><i class="bi bi-tiktok"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center">&copy; 2026 Thread Nest. All rights reserved.</p>
+      </div>
+     </footer>
+<script>
+const buttons = document.querySelectorAll('.filter-btn');
+buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const category = btn.dataset.cat;
+        document.querySelectorAll('.product').forEach(p => {
+            p.style.display =
+                (category === 'all' || p.dataset.cat === category)
+                ? 'block'
+                : 'none';
+        });
+    });
+});
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+const cartButtons = document.querySelectorAll(".add-cart-btn");
+
+cartButtons.forEach(button => {
+
+    button.addEventListener("click", function () {
+
+        const product = this.closest(".product");
+
+        if (!product) {
+            console.log("Product container not found");
+            return;
+        }
+
+        const name = product.querySelector("h3").textContent.trim();
+
+        const priceText = product.querySelector("h5").textContent;
+
+        const price = parseInt(priceText.replace(/[^\d]/g, ""));
+
+        const image = product.querySelector("img").getAttribute("src");
+
+        const existingProduct = cart.find(item => item.image === image);
+
+        if (existingProduct) {
+
+            existingProduct.quantity += 1;
+
+        } else {
+
+            cart.push({
+                name: name,
+                price: price,
+                image: image,
+                quantity: 1
+            });
+
+        }
+
+        localStorage.setItem("cart", JSON.stringify(cart));
+
+        updateCartCount();
+
+        alert(name + " added to cart!");
+
+    });
+
+});
+
+
+function updateCartCount() {
+
+    const cartCount = document.getElementById("cart-count");
+
+    if (cartCount) {
+
+        let totalItems = 0;
+
+        cart.forEach(item => {
+            totalItems += item.quantity;
+        });
+
+        cartCount.textContent = totalItems;
+    }
+}
+
+
+updateCartCount();
+
+</script>
+</body>
