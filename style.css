@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #search-btn{
     color: #FFF7F2;
-    margin-right: 80px;
+    margin-right: 0px;
 }
 /* Cart Icon */
 .cart-link {
@@ -118,6 +118,37 @@ h1, h2, h3, h4, h5, h6 {
 /* Cart hover effect */
 .cart-link:hover #cart-count {
     background-color: #8F4A63;
+}
+/* =========================
+   MOBILE NAVBAR
+========================= */
+
+@media (max-width: 991px) {
+
+    .search-box {
+        width: 180px;
+        height: 40px;
+        border-color: #FFF7F2;
+    }
+
+    .search-input {
+        width: 135px;
+        opacity: 1;
+        padding: 8px 10px;
+    }
+
+    #search-btn {
+        color: #FFF7F2;
+        margin-right: 0;
+        padding: 5px 10px;
+    }
+
+    .cart-link {
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 22px;
+    }
+
 }
 #nav-img{
     margin-left: 80px;
